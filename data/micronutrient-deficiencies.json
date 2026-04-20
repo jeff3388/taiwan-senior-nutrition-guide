@@ -1,0 +1,133 @@
+{
+  "_meta": {
+    "title": "台灣老年人微量營養素缺乏資料庫",
+    "description": "台灣 65 歲以上老年人常見微量營養素缺乏的盛行率、原因與補充建議",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "primary_data_source": "台灣國民營養健康狀況變遷調查（NAHSIT）；衛福部 DRI 第八版（2023）",
+    "scope_note": "本資料庫聚焦微量營養素，蛋白質相關建議請參見 taiwan-sarcopenia-prevention-guide"
+  },
+  "deficiencies": [
+    {
+      "id": "micro_001",
+      "nutrient": "維生素 D（Vitamin D）",
+      "taiwan_deficiency_rate_elderly": "60–70%（血清 25(OH)D < 20 ng/mL）",
+      "taiwan_dri_2023": "70 歲以上：800 IU（20 μg）/ day",
+      "upper_safe_limit": "4,000 IU / day（台灣衛福部）",
+      "optimal_serum_level_ng_ml": "30–60",
+      "deficiency_cutoff_ng_ml": "< 20",
+      "health_consequences": [
+        "骨質疏鬆症加速（骨密度下降）",
+        "肌少症風險增加（維生素 D 受體在肌肉細胞表現）",
+        "免疫功能下降（COVID-19 重症相關）",
+        "跌倒風險增加（神經肌肉協調功能下降）"
+      ],
+      "evidence_grade": "A",
+      "pmid": "22206119",
+      "taiwan_specific_reasons": [
+        "過度防曬習慣（全身遮蔽、高 SPF 防曬乳）",
+        "皮膚老化使合成效率降低約 75%",
+        "台灣傳統飲食中維生素 D 食物（鮭魚、沙丁魚、強化食品）攝取量少",
+        "城市化導致戶外活動減少"
+      ],
+      "food_sources_taiwan": [
+        { "food": "鮭魚（100g）", "vitamin_d_iu": 600 },
+        { "food": "鯖魚（100g）", "vitamin_d_iu": 360 },
+        { "food": "秋刀魚（100g）", "vitamin_d_iu": 340 },
+        { "food": "雞蛋黃（1顆）", "vitamin_d_iu": 44 },
+        { "food": "強化牛奶（240ml）", "vitamin_d_iu": "80–100（若有強化）" }
+      ],
+      "supplementation": {
+        "recommended_dose_iu": "1,000–2,000",
+        "form": "D3（cholecalciferol）優於 D2（ergocalciferol）",
+        "timing": "隨含脂肪餐食服用，吸收率提高 50%",
+        "monitoring": "補充 3 個月後建議檢測血清 25(OH)D 確認達標"
+      },
+      "taiwan_context": "台灣骨質疏鬆症基金會建議 50 歲以上每日 800–1,000 IU 維生素 D，但市面上保健品劑量差異大，需確認實際含量"
+    },
+    {
+      "id": "micro_002",
+      "nutrient": "鈣質（Calcium）",
+      "taiwan_deficiency_rate_elderly": "超過 50% 未達 DRI 建議量",
+      "taiwan_dri_2023": "70 歲以上：1,000–1,200 mg / day",
+      "upper_safe_limit_mg": 2500,
+      "health_consequences": [
+        "骨密度下降，骨折風險增加",
+        "台灣骨質疏鬆症盛行率：65 歲以上女性約 20–35%，男性 5–10%"
+      ],
+      "evidence_grade": "A",
+      "pmid_bone_density": "22505043",
+      "taiwan_low_intake_reason": "台灣飲食以米飯為主，乳製品攝取量遠低於西方（每日鈣質約 500–700mg，僅達建議量的 50–60%）",
+      "food_sources_taiwan": [
+        { "food": "低脂牛奶（240ml）", "calcium_mg": 290 },
+        { "food": "無糖優格（150g）", "calcium_mg": 200 },
+        { "food": "板豆腐（80g）", "calcium_mg": 126 },
+        { "food": "傳統豆腐（石膏製）（80g）", "calcium_mg": 90 },
+        { "food": "小魚乾（10g）", "calcium_mg": 218 },
+        { "food": "黑芝麻（10g）", "calcium_mg": 120 },
+        { "food": "高麗菜（100g）", "calcium_mg": 47 }
+      ],
+      "supplementation": {
+        "note": "食物來源優先；補充劑形式：碳酸鈣（隨餐）或檸檬酸鈣（可空腹）",
+        "single_dose_limit_mg": 500,
+        "reason": "每次吸收上限約 500mg，建議分次補充",
+        "recent_concern": "部分研究顯示鈣補充劑可能輕度增加心血管事件風險，食物來源無此疑慮"
+      },
+      "taiwan_context": "台灣傳統食物中小魚乾（丁香魚）是最高密度的鈣質來源，且文化接受度高，是優先推薦的台灣在地鈣質食物"
+    },
+    {
+      "id": "micro_003",
+      "nutrient": "維生素 B12（Cobalamin）",
+      "taiwan_deficiency_rate_elderly": "15–30%（血清 B12 < 148 pmol/L）",
+      "taiwan_dri_2023": "2.4 μg / day（70 歲以上不另設較高建議）",
+      "health_consequences": [
+        "大球性貧血（疲倦、虛弱）",
+        "周邊神經病變（手腳麻木、刺痛）",
+        "認知功能下降（與失智症前期相關）"
+      ],
+      "evidence_grade": "A",
+      "pmid": "24559598",
+      "high_risk_groups": [
+        "長期素食/純素老年人（植物食物幾乎不含 B12）",
+        "萎縮性胃炎患者（影響內在因子分泌，B12 吸收受阻）",
+        "長期服用 Metformin（二甲雙胍）的糖尿病患者（可降低 B12 吸收約 30%）",
+        "長期服用 PPI（胃酸抑制劑，如耐適恩）的患者"
+      ],
+      "food_sources_taiwan": [
+        { "food": "蛤蜊（50g）", "b12_ug": 52 },
+        { "food": "牛肉（100g）", "b12_ug": 2.6 },
+        { "food": "鮭魚（100g）", "b12_ug": 3.2 },
+        { "food": "雞蛋（1顆）", "b12_ug": 0.6 },
+        { "food": "牛奶（240ml）", "b12_ug": 1.2 }
+      ],
+      "plant_sources": "植物性食物幾乎不含 B12（海苔含微量但生物利用率低，不建議作為主要來源）",
+      "supplementation": {
+        "dose_ug": "1,000（口服，需高劑量補償胃部吸收效率低下）",
+        "form": "氰鈷胺（cyanocobalamin）或甲基鈷胺（methylcobalamin）均有效"
+      },
+      "taiwan_context": "台灣糖尿病老年人服用 Metformin 者估計超過 80 萬人，B12 缺乏是容易被忽略的藥物副作用。蛤蜊（文蛤、蜆仔）是台灣最高 B12 含量的食物，也是飲食補充的首選"
+    },
+    {
+      "id": "micro_004",
+      "nutrient": "鋅（Zinc）",
+      "taiwan_deficiency_rate_elderly": "約 20–40%",
+      "taiwan_dri_2023": "男性 15mg，女性 12mg / day",
+      "health_consequences": [
+        "傷口癒合速度減慢",
+        "免疫功能下降（T 細胞功能受損）",
+        "味覺/嗅覺異常 → 食慾下降 → 惡化營養不良",
+        "皮膚完整性受損"
+      ],
+      "evidence_grade": "B",
+      "pmid": "23800563",
+      "food_sources_taiwan": [
+        { "food": "牡蠣（50g）", "zinc_mg": 7.0 },
+        { "food": "牛肉（100g）", "zinc_mg": 4.8 },
+        { "food": "南瓜籽（30g）", "zinc_mg": 2.6 },
+        { "food": "豬肉（100g）", "zinc_mg": 2.9 },
+        { "food": "腰果（30g）", "zinc_mg": 1.6 }
+      ],
+      "taiwan_context": "台灣老年人的鋅缺乏常與食慾下降形成惡性循環：鋅不足 → 味覺異常 → 食慾更差 → 鋅攝取更少。牡蠣（蚵仔）是台灣最豐富的鋅來源，台南、嘉義沿海地區盛產"
+    }
+  ]
+}

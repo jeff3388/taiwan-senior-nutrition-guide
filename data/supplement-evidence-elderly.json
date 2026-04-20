@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "title": "台灣高齡者補充劑使用建議資料庫",
+    "description": "有 RCT 依據的老年人補充劑建議（非商業推薦）",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "editorial_stance": "本資料庫採用與台灣市場相反的立場：僅推薦有高品質 RCT 的補充劑，並誠實呈現其局限性"
+  },
+  "evidence_based_supplements": [
+    {
+      "id": "supp_001",
+      "supplement": "維生素 D3",
+      "recommended_for": "血清 25(OH)D < 30 ng/mL 的老年人",
+      "dose": "1,000–2,000 IU / day",
+      "evidence_grade": "A",
+      "pmid": "22206119",
+      "benefits": ["骨密度維持", "跌倒風險降低（Meta-analysis：降低 19%）", "肌肉功能支持"],
+      "monitoring": "每 6–12 個月檢測血清 25(OH)D",
+      "taiwan_context": "台灣 60–70% 老年人維生素 D 不足，是效益確認、安全性高的補充劑首選"
+    },
+    {
+      "id": "supp_002",
+      "supplement": "鈣質（食物優先；補充劑為輔）",
+      "recommended_dose_supplement_mg": "500–600（若飲食無法達標）",
+      "form": "碳酸鈣（隨餐）或檸檬酸鈣（可空腹）",
+      "evidence_grade": "A",
+      "pmid": "22505043",
+      "caveat": "部分 Meta-analysis 顯示鈣補充劑（非飲食來源）可能輕度增加心血管事件風險，食物鈣無此疑慮",
+      "taiwan_context": "台灣骨質疏鬆症基金會建議優先食物補充（小魚乾、豆腐、牛奶），不足才用補充劑"
+    },
+    {
+      "id": "supp_003",
+      "supplement": "維生素 B12",
+      "recommended_for": "純素/素食老年人、服用 Metformin 或 PPI 超過 2 年者",
+      "dose_ug": "1,000（口服）或 500（舌下）",
+      "evidence_grade": "A",
+      "pmid": "24559598",
+      "taiwan_context": "台灣佛教素食老年人估計超過 100 萬人，B12 補充是必要的預防措施，費用低廉（每月約 50–100 元）"
+    },
+    {
+      "id": "supp_004",
+      "supplement": "Omega-3 脂肪酸（EPA + DHA）",
+      "dose_mg": "1,000–2,000 EPA + DHA / day",
+      "evidence_grade": "B",
+      "pmid": "26656659",
+      "benefits": ["輕度降低三酸甘油脂（高劑量 ≥ 3g/day 效果顯著）", "認知功能可能有益（證據尚不確定）"],
+      "honest_limitation": "最新大型 RCT（VITAL trial 2018）顯示 Omega-3 對主要心血管事件預防效果有限；不宜以「預防心臟病」為由高劑量補充",
+      "taiwan_context": "台灣鯖魚、秋刀魚、鮭魚富含 EPA+DHA，是效益最佳的食物來源，每週吃 2–3 份脂肪魚優於補充劑"
+    },
+    {
+      "id": "supp_005",
+      "supplement": "益生菌（菌株特異性，見 taiwan-fermented-foods-gut-health）",
+      "evidence_grade": "B（依菌株不同）",
+      "note": "詳細菌株效果請參見 taiwan-fermented-foods-gut-health 資料庫，避免重複",
+      "taiwan_context": "台灣老年人益生菌市場廣大，但多數產品缺乏老年人 RCT 支持，需選擇菌株有明確臨床證據的產品"
+    }
+  ],
+  "supplements_with_insufficient_evidence": [
+    {
+      "supplement": "葡萄糖胺（Glucosamine）",
+      "common_claim": "改善退化性關節炎疼痛",
+      "evidence_grade": "C",
+      "honest_assessment": "大型 RCT（GAIT trial PMID: 16395298）顯示葡萄糖胺對一般關節炎無顯著效果，僅嚴重疼痛亞組可能有益",
+      "taiwan_context": "台灣老年人葡萄糖胺補充劑消費量巨大，但整體證據弱，不建議作為常規補充"
+    },
+    {
+      "supplement": "薑黃素（Curcumin）",
+      "common_claim": "抗炎、抗氧化、認知保護",
+      "evidence_grade": "C（生物利用率問題）",
+      "honest_assessment": "薑黃素生物利用率極低（< 1%），大多數試管和動物研究無法直接外推到人體；人體 RCT 結果不一致",
+      "taiwan_context": "市場宣稱「台灣薑黃最佳」但尚無台灣人體 RCT，飲食中適量使用薑黃調味是安全的，高劑量補充劑無明確額外效益"
+    }
+  ]
+}

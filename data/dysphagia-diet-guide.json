@@ -1,0 +1,76 @@
+{
+  "_meta": {
+    "title": "吞嚥困難（Dysphagia）飲食調整指南",
+    "description": "台灣老年人吞嚥困難的食物質地分級與營養維持策略",
+    "version": "1.0.0",
+    "last_updated": "2026-04-17",
+    "primary_standard": "IDDSI（國際吞嚥困難飲食標準化倡議）框架，2017 年版",
+    "taiwan_adoption": "台灣老年醫學暨老年學學會已推薦採用 IDDSI 框架（2021 年）",
+    "prevalence": "台灣 65 歲以上老年人吞嚥困難盛行率約 15–22%；長照機構約 30–50%"
+  },
+  "iddsi_texture_levels": [
+    {
+      "id": "tex_001",
+      "iddsi_level": 7,
+      "name_en": "Regular",
+      "name_zh": "一般飲食",
+      "description": "一般食物，無需特殊處理",
+      "appropriate_for": "無吞嚥困難的老年人",
+      "taiwan_context": "台灣一般長者的日常飲食。自助餐、便當均屬此類"
+    },
+    {
+      "id": "tex_002",
+      "iddsi_level": 6,
+      "name_en": "Soft & Bite-Sized",
+      "name_zh": "軟質易咬",
+      "description": "食物切小（1.5cm x 1.5cm），質地軟，可用舌頭和牙齦壓碎",
+      "appropriate_for": "輕度咀嚼困難（缺牙、假牙適應期）",
+      "examples_taiwan": ["軟煮白飯", "蒸魚（去骨）", "炒蛋", "軟豆腐", "熟香蕉"],
+      "taiwan_context": "台灣估計超過 60% 的 65 歲以上老年人有不同程度的缺牙問題。軟質飲食是最常需要的調整層級"
+    },
+    {
+      "id": "tex_003",
+      "iddsi_level": 5,
+      "name_en": "Minced & Moist",
+      "name_zh": "細碎濕潤",
+      "description": "食物細碎（< 4mm），需有濕潤醬汁，可用舌頭處理",
+      "appropriate_for": "中度咀嚼困難，輕度吞嚥困難",
+      "examples_taiwan": ["肉末粥", "細碎蒸魚拌飯", "南瓜泥", "蒸蛋"],
+      "nutritional_concern": "食物碎化後體積增大，老年人可能攝取量不足——需監測蛋白質和熱量攝取",
+      "taiwan_context": "台灣傳統「粥食」文化高度符合此需求，但白粥蛋白質含量低（每碗約 3g），需搭配蛋白質食物"
+    },
+    {
+      "id": "tex_004",
+      "iddsi_level": 4,
+      "name_en": "Pureed",
+      "name_zh": "細泥狀",
+      "description": "均質泥狀，可用湯匙舀，不形成固體塊",
+      "appropriate_for": "嚴重咀嚼困難，中度吞嚥困難",
+      "examples_taiwan": ["地瓜泥", "南瓜泥", "馬鈴薯泥", "豆腐泥", "肉泥（加湯汁）"],
+      "nutritional_maintenance": "需確保每餐達到足夠熱量（≥ 350 kcal）和蛋白質（≥ 15g），泥狀食物熱量密度低",
+      "commercial_products_taiwan": "台灣市售泥狀營養品（如安素、亞培）可補充不足",
+      "taiwan_context": "台灣長照機構泥狀飲食常過度稀薄，IDDSI Level 4 要求可用湯匙舀且不流動——建議機構採用 IDDSI 標準測試（湯匙傾斜測試）"
+    },
+    {
+      "id": "tex_005",
+      "iddsi_level": "0–3",
+      "name_zh": "液態（稀/中濃/濃稠/高濃稠）",
+      "description": "針對吞嚥困難嚴重者的液體稠度分級，需語言治療師評估後處方",
+      "thickener_note": "增稠劑（澱粉類或黃原膠類）可調整液體稠度，減少吸入性肺炎風險",
+      "taiwan_context": "台灣增稠劑（如「健康媽媽」系列）已在藥局販售，長照 2.0 居家服務可申請語言治療師評估"
+    }
+  ],
+  "aspiration_pneumonia_prevention": {
+    "taiwan_incidence": "台灣老年人吸入性肺炎是最常見的住院原因之一，在 85 歲以上老人死因前五名",
+    "key_strategies": [
+      "由語言治療師進行吞嚥功能評估（非醫師主觀判斷）",
+      "採用 IDDSI 適當質地飲食",
+      "進食時保持坐姿（頭部前傾約 30°）",
+      "每口量不超過 5–10ml",
+      "進食後保持直立 ≥ 30 分鐘",
+      "口腔衛生（飯後刷牙減少口腔細菌吸入）"
+    ],
+    "evidence_grade": "A",
+    "pmid": "20413569"
+  }
+}
