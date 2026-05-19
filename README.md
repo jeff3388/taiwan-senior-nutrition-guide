@@ -54,6 +54,14 @@
 - **長照 2.0**：衛福部長期照顧十年計畫 2.0（2017–2026）
 - **Holick MF (2011) PMID: 22206119**：維生素 D 缺乏系統性回顧
 
+## 相關工具（Interactive Tools）
+
+本資料庫的台灣高齡者營養科學，已整合至 [MetaboLab](https://metabolab.tw) 的互動工具中：
+
+- 💪 **[蛋白質需求計算機](https://metabolab.tw/calculators/protein-needs)**：根據年齡與活動量，計算台灣 DRI 建議的老年人蛋白質攝取量。65 歲以上每公斤體重需要 1.2–1.5g，遠高於一般成人的 0.8g/kg，合成代謝抗性（Anabolic Resistance）讓更高攝取量成為必要。
+- 📊 **[TDEE 計算機](https://metabolab.tw/calculators/tdee)**：考量老年人活動量下降與基礎代謝率降低，精算每日熱量需求，避免「看似吃飽但能量與蛋白質均不足」的隱性營養不良。
+- 🥗 **[211 餐盤計算機](https://metabolab.tw/calculators/211-meal-plan)**：為老年人設計高蛋白、高纖維、低鈉的均衡飲食框架，兼顧咀嚼需求（質地軟化選擇）與每餐至少 25g 蛋白質的目標。
+
 ## License
 
 MIT © taiwan-senior-nutrition-guide contributors
